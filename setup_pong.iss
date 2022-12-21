@@ -21,10 +21,10 @@ AppUpdatesURL={#MyAppURL}
 DefaultDirName={autopf}\{#MyAppName}
 DisableDirPage=yes
 DisableProgramGroupPage=yes
-LicenseFile=C:\Users\TheKing\PycharmProjects\Pong\dist\LICENSE.txt
+LicenseFile=C:\Users\TheKing\PycharmProjects\Pong_Game\dist\LICENSE.txt
 ; Remove the following line to run in administrative install mode (install for all users.)
 PrivilegesRequired=lowest
-OutputDir=C:\Users\TheKing\PycharmProjects\Pong\dist
+OutputDir=C:\Users\TheKing\PycharmProjects\Pong_Game\dist
 OutputBaseFilename=Pong-setup-{#MyAppVersion}
 SetupIconFile=C:\Users\TheKing\PycharmProjects\Pong\pong.ico
 Compression=lzma
