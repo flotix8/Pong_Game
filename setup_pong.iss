@@ -58,8 +58,8 @@ Name: "turkish"; MessagesFile: "compiler:Languages\Turkish.isl"
 Name: "ukrainian"; MessagesFile: "compiler:Languages\Ukrainian.isl"
 
 [Files]
-Source: "C:\Users\TheKing\PycharmProjects\Pong\dist\Pong_game\Pong.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\TheKing\PycharmProjects\Snake\dist\Pong_game\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\TheKing\PycharmProjects\Pong\dist\main\Pong.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\TheKing\PycharmProjects\Snake\dist\main\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
