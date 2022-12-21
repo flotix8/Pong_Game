@@ -9,6 +9,8 @@ random = random.randint(0,750)
 
 # Set up the screen
 screen = pygame.display.set_mode((1080, 720))
+icon = pygame.image.load("pong_icon.png").convert_alpha()
+pygame.display.set_icon(icon)
 pygame.display.set_caption('Pong')
 
 # Set up the colors
