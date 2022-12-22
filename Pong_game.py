@@ -50,7 +50,7 @@ def menu():
     pygame.display.set_caption('Menu')
 
     # Set up the fonts
-    font = pygame.font.Font(None, 100)
+    font = pygame.font.Font(pygame.font.get_default_font(), 100)
 
     # Set up the button rectangles
     replay_button = pygame.Rect(500, 150, 120, 50)
