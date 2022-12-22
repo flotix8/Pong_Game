@@ -65,7 +65,7 @@ Source: "C:\Users\flori\Downloads\main\*"; DestDir: "{app}"; Flags: ignoreversio
 [Icons]
 Name: "{autoprograms}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}";
 Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}";
-Name: "{app}\Uninstall"; Filename: "{app}\Uninstall\unins000.exe";
+Name: "{app}\Uninstall"; Filename: "{app}\Uninstall\Uninstall.exe";
 
 [Run]
 Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChange(MyAppName, '&', '&&')}}"; Flags: nowait postinstall skipifsilent
