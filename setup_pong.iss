@@ -21,12 +21,12 @@ AppUpdatesURL={#MyAppURL}
 DefaultDirName={autopf}\{#MyAppName}
 DisableDirPage=yes
 DisableProgramGroupPage=yes
-LicenseFile=C:\Users\TheKing\PycharmProjects\Pong\dist\LICENSE.txt
+LicenseFile=C:\Users\flori\Downloads\main\License.txt
 ; Remove the following line to run in administrative install mode (install for all users.)
 PrivilegesRequired=lowest
-OutputDir=C:\Users\TheKing\PycharmProjects\Pong\dist
+OutputDir=C:\Users\flori\Downloads\main\dist\
 OutputBaseFilename=Pong-setup-{#MyAppVersion}
-SetupIconFile=C:\Users\TheKing\PycharmProjects\Pong\pong.ico
+SetupIconFile=C:\Users\flori\Downloads\main\pong.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -58,8 +58,8 @@ Name: "turkish"; MessagesFile: "compiler:Languages\Turkish.isl"
 Name: "ukrainian"; MessagesFile: "compiler:Languages\Ukrainian.isl"
 
 [Files]
-Source: "C:\Users\TheKing\PycharmProjects\Pong\dist\main\Pong.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\TheKing\PycharmProjects\Pong\dist\main\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\flori\Downloads\main\Pong.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\flori\Downloads\main\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
