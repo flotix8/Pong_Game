@@ -24,9 +24,9 @@ DisableProgramGroupPage=yes
 LicenseFile=C:\Users\flori\Documents\main\License.txt
 ; Remove the following line to run in administrative install mode (install for all users.)
 PrivilegesRequired=lowest
-OutputDir=C:\Users\flori\Downloads\main\dist\
+OutputDir=C:\Users\flori\Documents\main\dist\
 OutputBaseFilename=Pong-setup-{#MyAppVersion}
-SetupIconFile=C:\Users\flori\Downloads\main\pong.ico
+SetupIconFile=C:\Users\flori\Documents\main\pong.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -58,8 +58,8 @@ Name: "turkish"; MessagesFile: "compiler:Languages\Turkish.isl"
 Name: "ukrainian"; MessagesFile: "compiler:Languages\Ukrainian.isl"
 
 [Files]
-Source: "C:\Users\flori\Downloads\main\Pong.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\flori\Downloads\main\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\flori\Documents\main\Pong.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\flori\Documents\main\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
